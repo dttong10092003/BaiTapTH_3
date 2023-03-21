@@ -2,6 +2,7 @@ body
 {
     margin: 0;
     padding: 0;
+    height: 1500px;
 }
 .container{
     display: flex;
@@ -89,10 +90,45 @@ body
 .product-description{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(128, 128, 128, 0.377);
 }
 #product-right{
     display: flex;
     flex-direction: column;
     align-items: end;
+    width: 27%;
+    margin-top: 15px;
+    border-radius: 4px;
     border: 1px solid;
+    border-color: rgba(128, 128, 128, 0.258);
+}
+#btn-cart{
+    width: 280px;
+    height: 45px;
+    margin-right: 20px;
+    margin-bottom: 15px;  
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: rgb(87, 226, 226);
+    color: rgb(87, 226, 226);
+}
+#btn-buy{
+    width: 280px;
+    height: 45px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    color: white;
+    background-color: rgb(87, 226, 226);
+    border: none;
+    border-radius: 4px;
+}
+.select{
+    width: 280px;
+    height: 32px; 
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(128, 128, 128, 0.116);
 }
