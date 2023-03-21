@@ -1,0 +1,88 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.flex-one{
+    margin-bottom: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(128, 128, 128, 0.377);
+}
+#one-right{
+    width: 50%;
+    display: flex;
+    margin-left: 20px;
+}
+.right-menu{
+    margin-top: 12px;
+    margin-left: 25px;
+    font: 0.9em sans-serif;
+}
+.right-menu:hover{
+    color: aqua;
+    border-bottom-color:aqua ;
+    border-bottom: 2px solid;
+    cursor: pointer;
+}
+#one-left{
+    margin-right: 20px;
+}
+#search-btn{
+    position: relative;
+    bottom: 10px;
+    left: 33px;
+    height: 20px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0);
+}
+#search-txt{
+    position: relative;
+    bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    width: 270px;
+    height: 35px;
+    padding: 0px 0px 0px 30px;
+    background-color: rgba(128, 128, 128, 0.105);
+}
+.flex-two{
+    margin-left: 140px;
+    margin-right: 140px;
+    width: 80%; 
+}
+.product-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 100%;
+    margin-bottom: 15px;
+}
+#product-bot{
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    display: flex;
+
+}
+#pro-des-icon{
+    display: flex;
+    margin-top: 30px;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 130px;
+}
+.noi-dung{
+    position: relative;
+    bottom: 7px;
+}
