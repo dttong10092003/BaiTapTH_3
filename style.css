@@ -73,6 +73,10 @@ body
     display: flex;
     margin-bottom: 20px;
 }
+#image-right{
+    display: flex;
+    width: 50%;
+}
 #pro-des-icon{
     display: flex;
     margin-top: 30px;
@@ -131,4 +135,19 @@ body
     border: none;
     border-radius: 4px;
     background-color: rgba(128, 128, 128, 0.116);
+}
+.review{
+    width: 100%;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#review-top{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+#review-bot{
+    display: flex;
 }
