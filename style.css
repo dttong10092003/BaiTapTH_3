@@ -2,7 +2,7 @@ body
 {
     margin: 0;
     padding: 0;
-    height: 1500px;
+    width: 100%;
 }
 .container{
     display: flex;
@@ -55,7 +55,6 @@ body
 }
 .flex-two{
     margin-left: 140px;
-    margin-right: 140px;
     width: 80%; 
 }
 .product-title{
@@ -142,12 +141,84 @@ body
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(128, 128, 128, 0.377);
 }
 #review-top{
     width: 100%;
     display: flex;
     justify-content:space-between;
+    margin-bottom: 30px;
 }
 #review-bot{
     display: flex;
+}
+.related{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 90px;
+}
+#related-top{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+ #related-bot{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+} 
+.related-product-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.related-four-img{
+    display: flex;
+    flex-direction: column;
+}
+.related-four-img{
+    border: 1px solid;
+    border-radius: 4px;
+    border-color: rgba(128, 128, 128, 0.096);
+}
+.logo{
+    border-top: 1px solid;
+    border-top-color: rgba(128, 128, 128, 0.377);
+    padding-top: 50px;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#btn-logo{
+    height: 30px;
+    width: 80px;color: white;
+    background-color: rgba(11, 212, 212, 0.81);
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+#input-logo{
+    height: 28px;
+    width: 210px;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: rgba(128, 128, 128, 0.212);
+}
+.four-noi-dung{
+    margin-left: 420px;
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+.flex-two-end{
+    display: flex;
+    margin-left: 140px;
+    justify-content: space-between;
+    width: 80%;
 }
